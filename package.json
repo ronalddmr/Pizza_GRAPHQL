@@ -1,0 +1,25 @@
+{
+  "name": "pizza3",
+  "version": "1.0.0",
+  "description": "Pizza ahora si",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Ronald Moreira",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-import": "^0.7.1",
+    "graphql-server-express": "^1.4.1",
+    "graphql-tools": "^4.0.6",
+    "nodemon": "^2.0.2",
+    "pg-promise": "^10.3.2"
+  }
+}
